@@ -145,9 +145,12 @@
             // 
             // todayPictureBox
             // 
-            this.todayPictureBox.Location = new System.Drawing.Point(22, 87);
+            this.todayPictureBox.BackgroundImage = global::XMLWeather.Properties.Resources.ios11_weather_clear_night_icon;
+            this.todayPictureBox.InitialImage = null;
+            this.todayPictureBox.Location = new System.Drawing.Point(20, 80);
             this.todayPictureBox.Name = "todayPictureBox";
-            this.todayPictureBox.Size = new System.Drawing.Size(100, 94);
+            this.todayPictureBox.Size = new System.Drawing.Size(100, 100);
+            this.todayPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.todayPictureBox.TabIndex = 43;
             this.todayPictureBox.TabStop = false;
             // 
@@ -155,7 +158,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.DarkRed;
             this.Controls.Add(this.todayPictureBox);
             this.Controls.Add(this.forecastLabel);
             this.Controls.Add(this.label3);
